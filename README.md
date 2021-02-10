@@ -2,13 +2,7 @@
 
 This repo is a companion to this video:
 
-[![Live App Review 1 - App Access Keys](https://img.youtube.com/vi/dT99JLpO2Q8/0.jpg)](https://www.youtube.com/watch?v=dT99JLpO2Q8)
-
-# NEAR App Boilerplate
-
-Most of this repo is how to use React 17 with useContext and useReducer.
-
-There is a helper in `src/utils/state` that handles a lot of this. You can follow the code as an example or read below to understand how it works.
+[![Live App Review 7 - Coin Flip Random Function With App Example](https://img.youtube.com/vi/mr6GdB7CHPg/0.jpg)](https://youtu.be/mr6GdB7CHPg)
 
 ## Installation
 
@@ -22,8 +16,6 @@ Also recommend installing near-cli globally
 
 Everything else can be installed via:
 `yarn`
-`cd server && yarn`
-
 ## NEAR Config
 
 There is only one config.js file found in `src/config.js`, this is also used for running tests.
@@ -41,7 +33,6 @@ Note: to run the app and server tests make sure you install and start the server
 Commands:
 - `test` will simply run app tests against the contract already deployed. You can mess around with `app.test.js` and try different frontend stuff
 - `test:deploy` - will deploy a new dev account (`/neardev`) and deploy a new contract to this account, then run `test`
-- `test:server` - will test the server, make sure you start it (see "Note" above)
 - `test:unit` - runs the rust unit tests
 
 If you've changed your contract or your dev account has run out of funds use `test:deploy`, if you're updating your JS tests only then use `test`.
