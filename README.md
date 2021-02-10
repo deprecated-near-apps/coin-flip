@@ -1,4 +1,4 @@
-# Live App Review 1 - App Access Keys
+# Live App Review 7 - Coin Flip Random Function With App Example
 
 This repo is a companion to this video:
 
